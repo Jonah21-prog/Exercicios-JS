@@ -11,3 +11,9 @@ console.log(escola.replace(3, "e"))
 // .replace -> substitui a posição indicada pela letra declarada a seguir
 console.log("Ana,Maria,Pedro".split(','))
 // .split -> cria um array com as strings e as separa pelo caractere indicado
+
+// Expressões...
+console.log(`1+1 = ${1 + 1}`)   // Para esse caso eu uso crase, não aspas (simples ou duplas)
+
+const up = texto => texto.toUpppercase()
+console.log (`Ei... ${up('cuidado')}!`)
